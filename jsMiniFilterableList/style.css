@@ -16,6 +16,7 @@ body {
     border-style: solid;
 }
 
-h5 {
+#names {
     background-color: gold;
+    margin: 5%;
 }
