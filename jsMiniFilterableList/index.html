@@ -64,10 +64,21 @@
                 <a href="#">Cody</a>
             </li>
         </ul>
+
+        <button class="button">
+            Save Contact s
+        </button>
     </div>
 
     <script>
         let filterInput = document.getElementById('filterInput');
+        let saveButton = document.getElementById('.button');
+
+        saveButton.addEventListener('click', saveButton);
+
+        function saveButton() {
+            
+        }
 
         filterInput.addEventListener('keyup', filterNames);
 
